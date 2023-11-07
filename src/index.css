@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-image: url(./assets/img/bg.png);
+  background-repeat: repeat;
+}
+
+
+/* 'pjBlue': '#6898D0',
+'pjGreen': '#7DC242',
+'pjPurple': '#DDA5FF',
+'pjPink': '#FFB5A8',
+'pjOrange': '#FB9570', */
+
+.bg-pjBlue{
+  background-color: #6898D0;
+}
+
+.bg-pjGreen{
+  background-color: #7DC242;
+}
+
+.bg-pjPurple{
+  background-color: #DDA5FF;
+}
+
+.bg-pjPink{
+  background-color: #FFB5A8;
+}
+
+.bg-pjOrange{
+  background-color: #FB9570;
+}
