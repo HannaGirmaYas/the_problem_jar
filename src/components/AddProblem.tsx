@@ -57,7 +57,7 @@ const AddProblem = () => {
                     </form>
 
                 </div>
-                <button onClick={handleOpenAdd} className={`w-20 border-black bg-white h-20 border flex items-center justify-center rounded-full relative z-50 -top-10 duration-300 ease-in -left-10 ${open && 'bg-primary rotate-45 	'}`}><img src={add} /></button>
+                <button onClick={handleOpenAdd} className={`w-20 border-black bg-white h-20 border flex items-center justify-center rounded-full relative z-50 -top-10  -left-10 ${open && 'bg-primary rotate-45 	'}`}><img src={add} /></button>
 
             </div>
         </>
