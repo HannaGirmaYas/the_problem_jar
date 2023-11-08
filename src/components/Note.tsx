@@ -3,7 +3,7 @@ import Draggable from 'react-draggable';
 import { NoteProps } from '../interfaces/Note';
 
 const Note = React.memo(({ note, handleDrag }: NoteProps) => {
-  const handleOnDrag = (e: any, ui: any) => {
+  const handleOnDrag = (e: any) => {
     e.stopPropagation();
   };
 
