@@ -26,8 +26,8 @@ const AddProblem = () => {
     const colors = ['pjBlue', 'pjGreen', 'pjPurple', 'pjPink', 'pjOrange']
     return (
         <>
-            <div className={`h-screen w-3/12 flex flex-col justify-end   fixed ease-in duration-300 right-0 ${open ? 'items-start ' : 'items-end'}`}>
-                <div className={`w-full min-h-[50%] mt-10 relative z-50  bg-white border border-black rounded-l-3xl  justify-between items-center py-2  px-4 ${open ? 'flex ' : 'hidden'}`}>
+            <div className={` w-3/12 flex flex-col justify-end  z-50 fixed ease-in duration-300 bottom-0 right-0 ${open ? 'items-start ' : 'items-end'}`}>
+                <div className={`w-full  mt-10 relative z-50  bg-white border border-black rounded-l-3xl  justify-between items-center py-2  px-4 ${open ? 'flex ' : 'hidden'}`}>
 
                     <form className='w-full flex flex-col gap-4' action="">
                         <div className='border border-black rounded-xl px-3 pt-1 pb-2'>

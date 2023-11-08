@@ -96,7 +96,7 @@ const Canvas = () => {
       
     
   >
-      <TransformComponentMemoized        wrapperClass="fixed top-0 left-0 !w-screen !h-screen  ">
+      <TransformComponentMemoized        wrapperClass="fixed z-10 top-0 left-0 !w-screen !h-screen  ">
     
       <div className="">
 
